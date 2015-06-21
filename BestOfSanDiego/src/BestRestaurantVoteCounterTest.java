@@ -6,9 +6,9 @@ import org.junit.Test;
 public class BestRestaurantVoteCounterTest {
 
 	@Test
-	public void testWinner() {
+	public void test() {
 		BestRestaurantVoteCounter bestResterauntVoteCounter = new BestRestaurantVoteCounter();
-		//assertEquals("C Level", bestResterauntVoteCounter.calculateWinner(votesForSangDeuan, votesForOceanaCoastalKitchen, votesForWerewolf, votesForHomeAndAway, votesForCLevel))
+		assertEquals("C Level", bestResterauntVoteCounter.getWinner());
 	}
 
 }

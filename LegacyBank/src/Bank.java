@@ -28,7 +28,7 @@ public class Bank {
 			diff--;
 		}
 		diff = Math.abs(diff);
-		return diff + (amount * perc);
+		return diff * amount * perc;
 	}
 }
 
